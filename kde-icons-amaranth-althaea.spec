@@ -1,4 +1,4 @@
-#$Revision: 1.2 $, $Date: 2004-04-16 21:24:20 $
+#$Revision: 1.3 $, $Date: 2004-04-17 10:17:20 $
 
 %define         _name	amaranth-althaea
 %define		_ver	.4
@@ -15,6 +15,8 @@ Source0:	http://download.freshmeat.net/themes/amaranth/%{_name}-%{_ver}.tar.gz
 URL:		http://www.kde-look.org/content/show.php?content=9781
 Requires:	kdelibs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildArch:	noarch
+
 
 %description
 amaranth-althaea is a lighter version of Amaranth with more shadows.
@@ -31,7 +33,7 @@ przystosowanie do d³ugotrwa³ego ogl±dania.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_iconsdir}
 
-%{__tar} xjf %{SOURCE0} -C $RPM_BUILD_ROOT%{_iconsdir}
+%{__tar} xzf %{SOURCE0} -C $RPM_BUILD_ROOT%{_iconsdir}/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
