@@ -1,4 +1,4 @@
-#$Revision: 1.1 $, $Date: 2004-04-16 20:53:45 $
+#$Revision: 1.2 $, $Date: 2004-04-16 21:24:20 $
 
 %define         _name	amaranth-althaea
 %define		_ver	.4
@@ -16,15 +16,14 @@ URL:		http://www.kde-look.org/content/show.php?content=9781
 Requires:	kdelibs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
-%{_name} is a lighter version of Amaranth with more shadows. This has 
-a lower contrast and is softer on eyers.
+amaranth-althaea is a lighter version of Amaranth with more shadows.
+This has a lower contrast and is softer on eyers.
 
 %description -l pl
-%{_name} to l¿ejsza wersja wersja motywu Amaranth z dodaniem cieni.
-Szczególny nacisk po³o¿ono na ni¿szy kontrast oraz przystosowanie
-do d³ugotrwa³ego ogl±dania.
+amaranth-althaea to l¿ejsza wersja wersja motywu Amaranth z dodaniem
+cieni. Szczególny nacisk po³o¿ono na ni¿szy kontrast oraz
+przystosowanie do d³ugotrwa³ego ogl±dania.
 
 %prep
 
@@ -32,7 +31,7 @@ do d³ugotrwa³ego ogl±dania.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_iconsdir}
 
-%{__tar} xjf %{SOURCE0} -C $RPM_BUILD_ROOT%{_iconsdir}/
+%{__tar} xjf %{SOURCE0} -C $RPM_BUILD_ROOT%{_iconsdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
