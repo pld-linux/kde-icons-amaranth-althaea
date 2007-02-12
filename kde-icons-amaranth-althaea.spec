@@ -1,10 +1,10 @@
-#$Revision: 1.3 $, $Date: 2004-04-17 10:17:20 $
+#$Revision: 1.4 $, $Date: 2007-02-12 00:48:58 $
 
 %define         _name	amaranth-althaea
 %define		_ver	.4
 
 Summary:	KDE icons - %{_name}
-Summary(pl):	Motyw ikon do KDE - %{_name}
+Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	0%{_ver}
 Release:	1
@@ -22,10 +22,10 @@ BuildArch:	noarch
 amaranth-althaea is a lighter version of Amaranth with more shadows.
 This has a lower contrast and is softer on eyers.
 
-%description -l pl
-amaranth-althaea to løejsza wersja wersja motywu Amaranth z dodaniem
-cieni. SzczegÛlny nacisk po≥oøono na niøszy kontrast oraz
-przystosowanie do d≥ugotrwa≥ego ogl±dania.
+%description -l pl.UTF-8
+amaranth-althaea to l≈ºejsza wersja wersja motywu Amaranth z dodaniem
+cieni. Szczeg√≥lny nacisk po≈Ço≈ºono na ni≈ºszy kontrast oraz
+przystosowanie do d≈Çugotrwa≈Çego oglƒÖdania.
 
 %prep
 
