@@ -1,10 +1,10 @@
-#$Revision: 1.4 $, $Date: 2007-02-12 00:48:58 $
+#$Revision: 1.5 $, $Date: 2007-02-13 08:06:36 $
 
 %define         _name	amaranth-althaea
 %define		_ver	.4
 
 Summary:	KDE icons - %{_name}
-Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name}
+Summary(pl.UTF-8):	Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	0%{_ver}
 Release:	1
